@@ -7,7 +7,7 @@
 	<authorUrl>https://sergioiglesias.net</authorUrl>
 	<copyright>Copyright © 2023 - All rights reserved.</copyright>
 	<license>GNU General Public License v2.0</license>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>MOD__P_SIS_VIDEOGRID__P_</description>
 	<files>
 		<filename module="mod_sis_videogrid">mod_sis_videogrid.php</filename>
@@ -30,6 +30,14 @@
 					<option value="">MOD_SIS_VIEW_OPTION_1</option>
 					<option value="horizontal">MOD_SIS_VIEW_OPTION_2</option>
 				</field>
+				<field
+					name="default_video"
+					type="text"
+					default=""
+					label="MOD_SIS_ARTICLES_FIELD_DEFAULTVIDEO_LABEL"
+					description="MOD_SIS_ARTICLES_FIELD_DEFAULTIDEO_DESC"
+					hint="MOD_SIS_ARTICLES_FIELD_DEFAULTVIDEO_HINT"
+				/>
 				<field
 					name="videos"
 					type="subform"

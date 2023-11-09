@@ -15,6 +15,10 @@ Youtube videos in Grid format
 ### Version 1.0.0 [2023-06-07]
 * **[Added]** Integration with Bootstrap Framework (version: 5)
 
+### Version 1.0.1 [2023-11-09]
+* **[Added]** Field to put a video that loads by default.
+* **[Fixed]** Sorting videos.
+
 * * *
 
 ## Copyright & License
